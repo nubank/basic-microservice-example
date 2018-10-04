@@ -77,7 +77,7 @@ Straw-man examples of what our unit tests may look like can be found in [`contro
 
 ### Integration
 
-A straw-man example of how we do integration testing can be found in [`account-flow`](https://github.com/nubank/basic-microservice-example/blob/master/test/basic_microservice_example/account_flow.cl)
+A straw-man example of how we do integration testing can be found in [`account-flow`](https://github.com/nubank/basic-microservice-example/blob/master/test/basic_microservice_example/account_flow.clj)
 
 More of an explanation of how `selvage` `flow` tests work can be in the [selvage repository](https://github.com/nubank/selvage).
 
