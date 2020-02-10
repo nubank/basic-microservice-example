@@ -36,3 +36,4 @@ repl-port
 out/
 build/
 
+.eastwood

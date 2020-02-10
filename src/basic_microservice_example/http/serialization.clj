@@ -38,7 +38,7 @@
 (defn read-json [data]
   (-> data
       underscore->dash
-      (read-json true)))
+      (parse-string true)))
 
 (s/defn read-edn [v :- s/Str]
   (if (string? v) (edn/read-string {:readers *data-readers*} v) v))
