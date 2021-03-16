@@ -55,9 +55,9 @@ components, and pass them down to the controller level for general use.
 Our http client logic is split into two components:
 
  - `http`: this component defines serialization and error handling logic. In
-   this example repository the this logic is basically non-existent due to the
+   this example repository the logic is basically non-existent due to the
    overhead making the code useful to the general public.
- - `http-impl`; this component defines the http client library we use. We
+ - `http-impl`: this component defines the http client library we use. We
    started with `http-kit` but have recently migrated away from this to
    `finagle` due to stability issues.
 
@@ -68,7 +68,7 @@ component. In our actual services we generally use a datomic component.
 
 #### pedestal-related components
 
-We use pedestal for or http serving layer, but we deconstruct pedestal logic
+We use pedestal for our http serving layer, but we deconstruct pedestal logic
 into several different components, deviating from the structure you would see in
 the pedestal starter template.
 
